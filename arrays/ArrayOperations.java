@@ -70,6 +70,45 @@ public class ArrayOperations {
 
     }
 
+    // Sum from Middle to End
+    public void sumMtoE() {
+
+        int[] arr = {93,74,59,69,77,45};
+        int total = 0;
+
+        for(int i=arr.length/2; i<arr.length; i++) {
+            total += arr[i];
+        }
+
+        System.out.println("Sum of Middle to End: " + total);
+    }
+
+    // Product from Start to Middle
+    public void productStoM() {
+
+        int[] arr = {93,74,59,69,77,45};
+        long product = arr[0];
+
+        for(int i=1; i<arr.length/2; i++) {
+            product *= arr[i];
+        }
+
+        System.out.println("Product of Start to Middle: " + product);
+    }
+
+    // Product from Middle to End
+    public void productMtoE() {
+
+        int[] arr = {93,74,59,69,77,45};
+        long product = 1;
+
+        for(int i=arr.length/2; i<arr.length; i++) {
+            product *= arr[i];
+        }
+
+        System.out.println("Product of Middle to End: " + product);
+    }
+
     public static void main(String[] args) {
         ArrayOperations obj = new ArrayOperations();
 
@@ -78,6 +117,9 @@ public class ArrayOperations {
         obj.productArray();
         obj.absSum();
         obj.sumStoM();
+        obj.sumMtoE();
+        obj.productStoM();
+        obj.productMtoE();
 
     }
 }
