@@ -12,7 +12,7 @@ Most people start DSA, solve a few basic problems, move from arrays to strings, 
 
 **Me?**
 
-I somehow kept finding my way back to arrays. 😄
+I somehow kept finding my way back to arrays. 
 
 This repository exists because this is actually my **second** attempt at restarting DSA.
 
@@ -80,7 +80,7 @@ java-dsa-foundations
 
 And yes...
 
-I'm still loyal to arrays. 😄
+I'm still loyal to arrays. 
 
 ---
 
