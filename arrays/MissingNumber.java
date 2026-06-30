@@ -1,3 +1,17 @@
+/*
+
+Given an array containing n distinct numbers in the range [0, n], 
+return the only number in the range that is missing from the array.
+
+Example
+Input: arr = [3, 0, 1]
+Output: 2
+
+Explanation: n = 3 since there are 3 numbers. 
+The range is [0, 3]. The missing number is 2.
+
+*/
+
 package arrays;
 
 public class MissingNumber {
