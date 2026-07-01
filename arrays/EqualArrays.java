@@ -1,3 +1,19 @@
+/* 
+
+Problem Statement: Given two integer arrays, check if they are equal or not.
+Two arrays are considered equal if they have the same length and contain 
+the exact same elements. 
+
+I/P: 
+a = {1, 2, 3, 4, 5}, b = {1, 2, 3, 4, 5, 6} 
+O/P: false
+
+I/P :
+a = {1, 2, 3}, b = {1, 9, 3} 
+O/P: false
+ 
+ */
+
 package arrays;
 
 public class EqualArrays {
