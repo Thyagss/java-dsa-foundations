@@ -1,3 +1,12 @@
+/*
+
+ Program Statement: Rotates an array to the left by k positions.
+
+ I/P: arr = {1, 2, 3, 4, 5, 6, 7}, k = 2
+ O/P: {3, 4, 5, 6, 7, 1, 2}
+
+*/
+
 package arrays;
 
 import java.util.Arrays;
